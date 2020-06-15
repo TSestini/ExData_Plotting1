@@ -44,8 +44,9 @@ plot(x2, submet1, type = "n", xlab = NA,
 lines(x2, submet1, type = "l")
 lines(x2, submet2, type = "l", col = "red")
 lines(x2, data_subset$Sub_metering_3, type = "l", col = "blue")
-legend("topright", inset = c(0.01, 0.01), box.lwd = 0, cex = 0.75, legend = c("Sub_metering_1", "Sub_metering_2",
-                "Sub_metering_3"), lty = 1, col = c("black", "red", "blue"))
+legend("topright", inset = c(0.01, 0.01), box.lwd = 0, cex = 0.75, lty = 1,
+       legend = c("Sub_metering_1", "Sub_metering_2",
+                  "Sub_metering_3"), col = c("black", "red", "blue"))
 # fourth plot
 plot(x2, grp, type = "l", ylab = "Global_reactive_power", xlab = "datetime")
 
