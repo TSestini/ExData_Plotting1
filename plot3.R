@@ -1,4 +1,4 @@
-#### Plot 2
+#### Plot 3
 
 data <- read.table("household_power_consumption.txt", sep = ";",
                    nrows = 85000, header = TRUE)
